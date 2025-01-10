@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfcd36lnkekml"]
+
+[ext_resource type="PackedScene" uid="uid://baiiokaqvi04v" path="res://assets/3d_cell/cell_godot_model.tscn" id="1_wp44t"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="cell_raw" parent="." instance=ExtResource("1_wp44t")]
